@@ -13,13 +13,13 @@ A node.js api for notes app.
 
 1. **/user/signup**  - To register new users.
 2. **/user/login**  - For login users.
-3. **/notes/add-note**  - To create new note. It creates new note note in DB.
+3. **/notes/add-note**  - To create new note. It creates new note in DB.
 4. **/notes/getAll-notes**  - To get all the notes from the DB.
 5. **/notes/get-note/:noteid**  - To get a particular note using it's id from DB.
 6. **/notes/update-note/:noteid**  - To update the note using it's id from DB.
 7. **/notes/delete-note/:noteid**  - To delete note using it's id from DB.
 
-**Note** : API endpoints '**/notes/add-note**', '**/notes/getAll-notes**', '**/notes/get-note/:noteid**', '**/notes/update-note/:noteid**', '**/notes/delete-note/:noteid**' need to be authenticated by JWT token to work. The client needs to send the JSON web token through the Authorization header.
+**Note** : API endpoints '**/notes/add-note**', '**/notes/getAll-notes**', '**/notes/get-note/:noteid**', '**/notes/update-note/:noteid**', '**/notes/delete-note/:noteid**' needs to be authenticated by JWT token to work. The client needs to send the JSON web token through the Authorization header.
 
 ## GET AllNotes Request
 
